@@ -24,8 +24,8 @@ TextView tvNameOfBook, tvDetailsOfBook;
         if (bundle != null)
         {
             circImg.setImageResource(bundle.getInt("image"));
-            tvNameOfBook.setText(bundle.getInt("Name"));
-            tvDetailsOfBook.setText(bundle.getInt("Details"));
+            tvNameOfBook.setText(bundle.getString("Name"));
+            tvDetailsOfBook.setText(bundle.getString("Details"));
         }
 
     }

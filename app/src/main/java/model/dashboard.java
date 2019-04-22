@@ -1,4 +1,4 @@
-package com.obs.model;
+package model;
 
 public class dashboard {
     private String name;

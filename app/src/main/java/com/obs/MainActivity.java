@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.obs.adapter.dashboardAdapter;
-import com.obs.model.dashboard;
+import adapter.dashboardAdapter;
+import model.dashboard;
 
 import java.util.ArrayList;
 import java.util.List;

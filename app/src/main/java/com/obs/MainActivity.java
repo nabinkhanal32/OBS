@@ -1,16 +1,15 @@
 package com.obs;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-
-import adapter.dashboardAdapter;
-import model.dashboard;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import adapter.dashboardAdapter;
+import model.dashboard;
 
 
 public class MainActivity extends AppCompatActivity {

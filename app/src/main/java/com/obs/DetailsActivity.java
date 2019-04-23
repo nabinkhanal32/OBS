@@ -1,8 +1,8 @@
 package com.obs;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.widget.TextView;
 
 import de.hdodenhof.circleimageview.CircleImageView;
